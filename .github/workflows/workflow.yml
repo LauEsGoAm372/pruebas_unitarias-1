@@ -28,6 +28,7 @@ jobs:
           
       - name: Create virtualenv and activate virtualenv
         run: | 
+          pip install virtualenv
           virtualenv env
           source env/bin/activate
           
